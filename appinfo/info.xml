@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<info>
+	<id>disableunsharing</id>
+	<name>Disable Unsharing</name>
+	<namespace>DisableUnsharing</namespace>
+	<description>Prevents users from unsharing folders shared by admins</description>
+	<licence>AGPL-3.0</licence>
+	<author>Jörn Friedrich Dreyer</author>
+	<version>0.0.1</version>
+	<types>
+		<filesystem/>
+	</types>
+
+	<dependencies>
+		<owncloud min-version="9.1" max-version="9.2"/>
+	</dependencies>
+</info>
